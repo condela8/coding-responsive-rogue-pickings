@@ -171,3 +171,50 @@ footer span {
 	color: #45610E;
 	font-size: 14px;
 }
+/* Tablet styles */
+@media all and (min-width: 768px) {
+	.bottom-section .content-wrapper {
+	    justify-content: space-evenly;
+	}
+	.section-one,
+    .section-three {
+		width: 30%;
+	
+    }
+	.section-two{
+		width: 40%;
+		padding-left: 30px;
+		padding-right: 30px;
+		border-left: 5px solid #EEE;
+		border-right: 5px solid #EEE;
+	}
+    
+}
+ /* Desktop styles */
+@media all and (min-width: 1200px) {
+	body{
+		font-size: 1em;
+	}
+	header h1 {
+		width: 40%;
+		padding: 0;
+		border-bottom:30px;
+		text-align: left;
+	}
+	
+	header nav {
+		width: 21%;
+	}
+	
+	header nav ul {
+		display: flex;
+		justify-content: space-between;
+	}
+	header .content-wrapper{
+		justify-content:space-between;
+		align-items: center;
+		padding: 16px 16px;
+
+	}
+    
+}
